@@ -2,7 +2,7 @@ import { useState } from "react";
 import Items from './items.jsx';
 function Codes() {
     const[item ,setItem] = useState('');
-    const [list ,setList] = useState(['beans','yam','yoghurt']);
+    const [list ,setList] = useState(['eat','sleep','code']);
     const [remove ,setRemove] =useState(false);
 
     // onchange for input
